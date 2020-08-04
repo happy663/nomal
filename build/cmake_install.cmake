@@ -43,6 +43,8 @@ if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   include("C:/Users/clan0/nomaltest/build/src/secondtest/cmake_install.cmake")
   include("C:/Users/clan0/nomaltest/build/src/thirtdtest/cmake_install.cmake")
   include("C:/Users/clan0/nomaltest/build/src/fourhtest/cmake_install.cmake")
+  include("C:/Users/clan0/nomaltest/build/final/1/cmake_install.cmake")
+  include("C:/Users/clan0/nomaltest/build/final/2/cmake_install.cmake")
 
 endif()
 

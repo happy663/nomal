@@ -1,0 +1,260 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4,
+						5,
+						6
+					],
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8"
+					},
+					"projectIndex" : 0,
+					"source" : "."
+				},
+				{
+					"build" : "src/firstest",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "src/firstest",
+					"targetIndexes" : 
+					[
+						2
+					]
+				},
+				{
+					"build" : "src/secondtest",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 2,
+					"source" : "src/secondtest",
+					"targetIndexes" : 
+					[
+						4
+					]
+				},
+				{
+					"build" : "src/thirtdtest",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 3,
+					"source" : "src/thirtdtest",
+					"targetIndexes" : 
+					[
+						5
+					]
+				},
+				{
+					"build" : "src/fourhtest",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 4,
+					"source" : "src/fourhtest",
+					"targetIndexes" : 
+					[
+						3
+					]
+				},
+				{
+					"build" : "final/1",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 5,
+					"source" : "final/1",
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"build" : "final/2",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 6,
+					"source" : "final/2",
+					"targetIndexes" : 
+					[
+						1
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4,
+						5,
+						6
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "ImageProcessing"
+				},
+				{
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "firstest",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						2
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						2
+					],
+					"name" : "secondtest",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						4
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						3
+					],
+					"name" : "thirdtest",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						5
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						4
+					],
+					"name" : "fourhtest",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						3
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						5
+					],
+					"name" : "final1",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						6
+					],
+					"name" : "final2",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						1
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 5,
+					"id" : "final1::@07dee56fc79894fab635",
+					"jsonFile" : "target-final1-Debug-ecc93205ee165a2f5715.json",
+					"name" : "final1",
+					"projectIndex" : 5
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "final2::@0d8999b0808dac786512",
+					"jsonFile" : "target-final2-Debug-9e80e8e3cfe848713440.json",
+					"name" : "final2",
+					"projectIndex" : 6
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "firstest::@78ca5a34e6f71ad759a7",
+					"jsonFile" : "target-firstest-Debug-0781d7d307d4416fec4d.json",
+					"name" : "firstest",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "fourhtest::@f849f8ba293f3d386190",
+					"jsonFile" : "target-fourhtest-Debug-d8f206523c1fb4d26a70.json",
+					"name" : "fourhtest",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "secondtest::@73d974dfb24a9a629657",
+					"jsonFile" : "target-secondtest-Debug-3d4a500f0a77249ed4f1.json",
+					"name" : "secondtest",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "thirdtest::@bdc9c4783e73013410df",
+					"jsonFile" : "target-thirdtest-Debug-3e81faa8a8503312c6a9.json",
+					"name" : "thirdtest",
+					"projectIndex" : 3
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/clan0/nomaltest/build",
+		"source" : "C:/Users/clan0/nomaltest"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 1
+	}
+}

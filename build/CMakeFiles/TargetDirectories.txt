@@ -12,3 +12,9 @@ C:/Users/clan0/nomaltest/build/src/thirtdtest/CMakeFiles/rebuild_cache.dir
 C:/Users/clan0/nomaltest/build/src/fourhtest/CMakeFiles/fourhtest.dir
 C:/Users/clan0/nomaltest/build/src/fourhtest/CMakeFiles/edit_cache.dir
 C:/Users/clan0/nomaltest/build/src/fourhtest/CMakeFiles/rebuild_cache.dir
+C:/Users/clan0/nomaltest/build/final/1/CMakeFiles/final1.dir
+C:/Users/clan0/nomaltest/build/final/1/CMakeFiles/edit_cache.dir
+C:/Users/clan0/nomaltest/build/final/1/CMakeFiles/rebuild_cache.dir
+C:/Users/clan0/nomaltest/build/final/2/CMakeFiles/final2.dir
+C:/Users/clan0/nomaltest/build/final/2/CMakeFiles/edit_cache.dir
+C:/Users/clan0/nomaltest/build/final/2/CMakeFiles/rebuild_cache.dir

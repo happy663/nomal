@@ -260,6 +260,18 @@ ImageProcessing_SOURCE_DIR:STATIC=C:/Users/clan0/nomaltest
 OpenCV_DIR:PATH=C:/tools/msys64/mingw64/lib/cmake/opencv4
 
 //Value Computed by CMake
+final1_BINARY_DIR:STATIC=C:/Users/clan0/nomaltest/build/final/1
+
+//Value Computed by CMake
+final1_SOURCE_DIR:STATIC=C:/Users/clan0/nomaltest/final/1
+
+//Value Computed by CMake
+final2_BINARY_DIR:STATIC=C:/Users/clan0/nomaltest/build/final/2
+
+//Value Computed by CMake
+final2_SOURCE_DIR:STATIC=C:/Users/clan0/nomaltest/final/2
+
+//Value Computed by CMake
 firstest_BINARY_DIR:STATIC=C:/Users/clan0/nomaltest/build/src/firstest
 
 //Value Computed by CMake
@@ -390,7 +402,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=5
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=7
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP

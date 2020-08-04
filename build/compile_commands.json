@@ -18,5 +18,15 @@
   "directory": "C:/Users/clan0/nomaltest/build/src/fourhtest",
   "command": "C:/tools/msys64/mingw64/bin/g++.exe  @CMakeFiles/fourhtest.dir/includes_CXX.rsp -g -std=gnu++11 -o CMakeFiles/fourhtest.dir/main.cpp.obj -c C:/Users/clan0/nomaltest/src/fourhtest/main.cpp",
   "file": "C:/Users/clan0/nomaltest/src/fourhtest/main.cpp"
+},
+{
+  "directory": "C:/Users/clan0/nomaltest/build/final/1",
+  "command": "C:/tools/msys64/mingw64/bin/g++.exe  @CMakeFiles/final1.dir/includes_CXX.rsp -g -std=gnu++11 -o CMakeFiles/final1.dir/final_01_k19074.cpp.obj -c C:/Users/clan0/nomaltest/final/1/final_01_k19074.cpp",
+  "file": "C:/Users/clan0/nomaltest/final/1/final_01_k19074.cpp"
+},
+{
+  "directory": "C:/Users/clan0/nomaltest/build/final/2",
+  "command": "C:/tools/msys64/mingw64/bin/g++.exe  @CMakeFiles/final2.dir/includes_CXX.rsp -g -std=gnu++11 -o CMakeFiles/final2.dir/final_02_k19074.cpp.obj -c C:/Users/clan0/nomaltest/final/2/final_02_k19074.cpp",
+  "file": "C:/Users/clan0/nomaltest/final/2/final_02_k19074.cpp"
 }
 ]

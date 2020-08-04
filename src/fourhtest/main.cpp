@@ -25,11 +25,10 @@ int main(int argc,const char*argv[]){
         
     //二値化
     
-    cv::threshold(src_img, dst_img, TH, 255, cv::THRESH_BINARY);
-    
-                
+    cv::threshold(src_img, dst_img, TH, 255, cv::THRESH_BINARY);    
+                                
     for (int i=0;i<8; i++) {
-        cv::dilate(dst_img, tmp_img, cv::Mat(),cv::Point(-1,-1),i);
+        cv::dilate(dst_img, tmp_img, cv::Mat(),cv::Point(-1,-1),i);        
     }
     
     for (int i=0;i<26; i++) {

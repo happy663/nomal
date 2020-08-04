@@ -181,6 +181,32 @@ fourhtest/fast:
 	$(MAKE) $(MAKESILENT) -f src/fourhtest/CMakeFiles/fourhtest.dir/build.make src/fourhtest/CMakeFiles/fourhtest.dir/build
 .PHONY : fourhtest/fast
 
+#=============================================================================
+# Target rules for targets named final1
+
+# Build rule for target.
+final1: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 final1
+.PHONY : final1
+
+# fast build rule for target.
+final1/fast:
+	$(MAKE) $(MAKESILENT) -f final/1/CMakeFiles/final1.dir/build.make final/1/CMakeFiles/final1.dir/build
+.PHONY : final1/fast
+
+#=============================================================================
+# Target rules for targets named final2
+
+# Build rule for target.
+final2: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 final2
+.PHONY : final2
+
+# fast build rule for target.
+final2/fast:
+	$(MAKE) $(MAKESILENT) -f final/2/CMakeFiles/final2.dir/build.make final/2/CMakeFiles/final2.dir/build
+.PHONY : final2/fast
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -189,6 +215,8 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
+	@echo "... final1"
+	@echo "... final2"
 	@echo "... firstest"
 	@echo "... fourhtest"
 	@echo "... secondtest"
