@@ -1,0 +1,23 @@
+{
+  "configurations": [
+    {
+      "name": "WINx64",
+      "defines": ["_DEBUG", "UNICODE", "_UNICODE"],
+      "windowsSdkVersion": "10.0.17763.0",
+      "compilerPath": "C:/tools/msys64/mingw64/bin/g++.exe",
+      "cStandard": "c11",
+      "cppStandard": "c++11",
+      "intelliSenseMode": "gcc-x64",
+      "includePath": [
+        "${workspaceFolder}/**",
+        "C:/tools/msys64/mingw64/include",
+        "C:/tools/msys64/mingw64/include/opencv4"
+      ],
+      "browse": {
+        "path": ["C:/tools/msys64/mingw64/include", "C:/tools/msys64/mingw64/include/opencv4"]
+      },
+      "configurationProvider": "ms-vscode.cmake-tools"
+    }
+  ],
+  "version": 4
+}
