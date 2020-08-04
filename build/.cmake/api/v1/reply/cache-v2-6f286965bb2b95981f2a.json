@@ -799,7 +799,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "4"
+			"value" : "5"
 		},
 		{
 			"name" : "CMAKE_OBJCOPY",
@@ -1388,6 +1388,30 @@
 			],
 			"type" : "STATIC",
 			"value" : "C:/Users/clan0/nomaltest/src/firstest"
+		},
+		{
+			"name" : "fourhtest_BINARY_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "C:/Users/clan0/nomaltest/build/src/fourhtest"
+		},
+		{
+			"name" : "fourhtest_SOURCE_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "C:/Users/clan0/nomaltest/src/fourhtest"
 		},
 		{
 			"name" : "secondtest_BINARY_DIR",

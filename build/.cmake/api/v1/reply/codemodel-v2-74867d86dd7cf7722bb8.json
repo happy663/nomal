@@ -10,7 +10,8 @@
 					[
 						1,
 						2,
-						3
+						3,
+						4
 					],
 					"minimumCMakeVersion" : 
 					{
@@ -44,7 +45,7 @@
 					"source" : "src/secondtest",
 					"targetIndexes" : 
 					[
-						1
+						2
 					]
 				},
 				{
@@ -58,7 +59,21 @@
 					"source" : "src/thirtdtest",
 					"targetIndexes" : 
 					[
-						2
+						3
+					]
+				},
+				{
+					"build" : "src/fourhtest",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 4,
+					"source" : "src/fourhtest",
+					"targetIndexes" : 
+					[
+						1
 					]
 				}
 			],
@@ -70,7 +85,8 @@
 					[
 						1,
 						2,
-						3
+						3,
+						4
 					],
 					"directoryIndexes" : 
 					[
@@ -99,7 +115,7 @@
 					"parentIndex" : 0,
 					"targetIndexes" : 
 					[
-						1
+						2
 					]
 				},
 				{
@@ -111,7 +127,19 @@
 					"parentIndex" : 0,
 					"targetIndexes" : 
 					[
-						2
+						3
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						4
+					],
+					"name" : "fourhtest",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						1
 					]
 				}
 			],
@@ -123,6 +151,13 @@
 					"jsonFile" : "target-firstest-Debug-0781d7d307d4416fec4d.json",
 					"name" : "firstest",
 					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "fourhtest::@f849f8ba293f3d386190",
+					"jsonFile" : "target-fourhtest-Debug-d8f206523c1fb4d26a70.json",
+					"name" : "fourhtest",
+					"projectIndex" : 4
 				},
 				{
 					"directoryIndex" : 2,

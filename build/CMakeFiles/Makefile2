@@ -75,6 +75,7 @@ CMAKE_BINARY_DIR = C:/Users/clan0/nomaltest/build
 all: src/firstest/all
 all: src/secondtest/all
 all: src/thirtdtest/all
+all: src/fourhtest/all
 
 .PHONY : all
 
@@ -82,6 +83,7 @@ all: src/thirtdtest/all
 preinstall: src/firstest/preinstall
 preinstall: src/secondtest/preinstall
 preinstall: src/thirtdtest/preinstall
+preinstall: src/fourhtest/preinstall
 
 .PHONY : preinstall
 
@@ -89,6 +91,7 @@ preinstall: src/thirtdtest/preinstall
 clean: src/firstest/clean
 clean: src/secondtest/clean
 clean: src/thirtdtest/clean
+clean: src/fourhtest/clean
 
 .PHONY : clean
 
@@ -109,6 +112,24 @@ src/firstest/preinstall:
 src/firstest/clean: src/firstest/CMakeFiles/firstest.dir/clean
 
 .PHONY : src/firstest/clean
+
+#=============================================================================
+# Directory level rules for directory src/fourhtest
+
+# Recursive "all" directory target.
+src/fourhtest/all: src/fourhtest/CMakeFiles/fourhtest.dir/all
+
+.PHONY : src/fourhtest/all
+
+# Recursive "preinstall" directory target.
+src/fourhtest/preinstall:
+
+.PHONY : src/fourhtest/preinstall
+
+# Recursive "clean" directory target.
+src/fourhtest/clean: src/fourhtest/CMakeFiles/fourhtest.dir/clean
+
+.PHONY : src/fourhtest/clean
 
 #=============================================================================
 # Directory level rules for directory src/secondtest
@@ -180,7 +201,7 @@ src/firstest/CMakeFiles/firstest.dir/clean:
 src/secondtest/CMakeFiles/secondtest.dir/all:
 	$(MAKE) $(MAKESILENT) -f src/secondtest/CMakeFiles/secondtest.dir/build.make src/secondtest/CMakeFiles/secondtest.dir/depend
 	$(MAKE) $(MAKESILENT) -f src/secondtest/CMakeFiles/secondtest.dir/build.make src/secondtest/CMakeFiles/secondtest.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:/Users/clan0/nomaltest/build/CMakeFiles --progress-num=3,4 "Built target secondtest"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:/Users/clan0/nomaltest/build/CMakeFiles --progress-num=5,6 "Built target secondtest"
 .PHONY : src/secondtest/CMakeFiles/secondtest.dir/all
 
 # Build rule for subdir invocation for target.
@@ -207,7 +228,7 @@ src/secondtest/CMakeFiles/secondtest.dir/clean:
 src/thirtdtest/CMakeFiles/thirdtest.dir/all:
 	$(MAKE) $(MAKESILENT) -f src/thirtdtest/CMakeFiles/thirdtest.dir/build.make src/thirtdtest/CMakeFiles/thirdtest.dir/depend
 	$(MAKE) $(MAKESILENT) -f src/thirtdtest/CMakeFiles/thirdtest.dir/build.make src/thirtdtest/CMakeFiles/thirdtest.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:/Users/clan0/nomaltest/build/CMakeFiles --progress-num=5,6 "Built target thirdtest"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:/Users/clan0/nomaltest/build/CMakeFiles --progress-num=7,8 "Built target thirdtest"
 .PHONY : src/thirtdtest/CMakeFiles/thirdtest.dir/all
 
 # Build rule for subdir invocation for target.
@@ -226,6 +247,33 @@ thirdtest: src/thirtdtest/CMakeFiles/thirdtest.dir/rule
 src/thirtdtest/CMakeFiles/thirdtest.dir/clean:
 	$(MAKE) $(MAKESILENT) -f src/thirtdtest/CMakeFiles/thirdtest.dir/build.make src/thirtdtest/CMakeFiles/thirdtest.dir/clean
 .PHONY : src/thirtdtest/CMakeFiles/thirdtest.dir/clean
+
+#=============================================================================
+# Target rules for target src/fourhtest/CMakeFiles/fourhtest.dir
+
+# All Build rule for target.
+src/fourhtest/CMakeFiles/fourhtest.dir/all:
+	$(MAKE) $(MAKESILENT) -f src/fourhtest/CMakeFiles/fourhtest.dir/build.make src/fourhtest/CMakeFiles/fourhtest.dir/depend
+	$(MAKE) $(MAKESILENT) -f src/fourhtest/CMakeFiles/fourhtest.dir/build.make src/fourhtest/CMakeFiles/fourhtest.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:/Users/clan0/nomaltest/build/CMakeFiles --progress-num=3,4 "Built target fourhtest"
+.PHONY : src/fourhtest/CMakeFiles/fourhtest.dir/all
+
+# Build rule for subdir invocation for target.
+src/fourhtest/CMakeFiles/fourhtest.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start C:/Users/clan0/nomaltest/build/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/fourhtest/CMakeFiles/fourhtest.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:/Users/clan0/nomaltest/build/CMakeFiles 0
+.PHONY : src/fourhtest/CMakeFiles/fourhtest.dir/rule
+
+# Convenience name for target.
+fourhtest: src/fourhtest/CMakeFiles/fourhtest.dir/rule
+
+.PHONY : fourhtest
+
+# clean rule for target.
+src/fourhtest/CMakeFiles/fourhtest.dir/clean:
+	$(MAKE) $(MAKESILENT) -f src/fourhtest/CMakeFiles/fourhtest.dir/build.make src/fourhtest/CMakeFiles/fourhtest.dir/clean
+.PHONY : src/fourhtest/CMakeFiles/fourhtest.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

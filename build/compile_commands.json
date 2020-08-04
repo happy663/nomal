@@ -13,5 +13,10 @@
   "directory": "C:/Users/clan0/nomaltest/build/src/thirtdtest",
   "command": "C:/tools/msys64/mingw64/bin/g++.exe  @CMakeFiles/thirdtest.dir/includes_CXX.rsp -g -std=gnu++11 -o CMakeFiles/thirdtest.dir/main.cpp.obj -c C:/Users/clan0/nomaltest/src/thirtdtest/main.cpp",
   "file": "C:/Users/clan0/nomaltest/src/thirtdtest/main.cpp"
+},
+{
+  "directory": "C:/Users/clan0/nomaltest/build/src/fourhtest",
+  "command": "C:/tools/msys64/mingw64/bin/g++.exe  @CMakeFiles/fourhtest.dir/includes_CXX.rsp -g -std=gnu++11 -o CMakeFiles/fourhtest.dir/main.cpp.obj -c C:/Users/clan0/nomaltest/src/fourhtest/main.cpp",
+  "file": "C:/Users/clan0/nomaltest/src/fourhtest/main.cpp"
 }
 ]

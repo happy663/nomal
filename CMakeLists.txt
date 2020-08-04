@@ -32,6 +32,8 @@ message(STATUS "    include path: ${OpenCV_INCLUDE_DIRS}")
 add_subdirectory("src/firstest")
 add_subdirectory("src/secondtest")
 add_subdirectory("src/thirtdtest")
+add_subdirectory("src/fourhtest")
+
 
 
 

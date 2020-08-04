@@ -99,14 +99,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:/Users/clan0/nomaltest/build/CMakeFiles C:/Users/clan0/nomaltest/build//CMakeFiles/progress.marks
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
+	cd C:/Users/clan0/nomaltest/build && $(CMAKE_COMMAND) -E cmake_progress_start C:/Users/clan0/nomaltest/build/CMakeFiles C:/Users/clan0/nomaltest/build/src/fourhtest//CMakeFiles/progress.marks
+	cd C:/Users/clan0/nomaltest/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/fourhtest/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:/Users/clan0/nomaltest/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 clean
+	cd C:/Users/clan0/nomaltest/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/fourhtest/clean
 .PHONY : clean
 
 # The main clean target
@@ -116,70 +116,60 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 preinstall
+	cd C:/Users/clan0/nomaltest/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/fourhtest/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 preinstall
+	cd C:/Users/clan0/nomaltest/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/fourhtest/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd C:/Users/clan0/nomaltest/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
-#=============================================================================
-# Target rules for targets named firstest
+# Convenience name for target.
+src/fourhtest/CMakeFiles/fourhtest.dir/rule:
+	cd C:/Users/clan0/nomaltest/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/fourhtest/CMakeFiles/fourhtest.dir/rule
+.PHONY : src/fourhtest/CMakeFiles/fourhtest.dir/rule
 
-# Build rule for target.
-firstest: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 firstest
-.PHONY : firstest
+# Convenience name for target.
+fourhtest: src/fourhtest/CMakeFiles/fourhtest.dir/rule
 
-# fast build rule for target.
-firstest/fast:
-	$(MAKE) $(MAKESILENT) -f src/firstest/CMakeFiles/firstest.dir/build.make src/firstest/CMakeFiles/firstest.dir/build
-.PHONY : firstest/fast
-
-#=============================================================================
-# Target rules for targets named secondtest
-
-# Build rule for target.
-secondtest: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 secondtest
-.PHONY : secondtest
-
-# fast build rule for target.
-secondtest/fast:
-	$(MAKE) $(MAKESILENT) -f src/secondtest/CMakeFiles/secondtest.dir/build.make src/secondtest/CMakeFiles/secondtest.dir/build
-.PHONY : secondtest/fast
-
-#=============================================================================
-# Target rules for targets named thirdtest
-
-# Build rule for target.
-thirdtest: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 thirdtest
-.PHONY : thirdtest
-
-# fast build rule for target.
-thirdtest/fast:
-	$(MAKE) $(MAKESILENT) -f src/thirtdtest/CMakeFiles/thirdtest.dir/build.make src/thirtdtest/CMakeFiles/thirdtest.dir/build
-.PHONY : thirdtest/fast
-
-#=============================================================================
-# Target rules for targets named fourhtest
-
-# Build rule for target.
-fourhtest: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 fourhtest
 .PHONY : fourhtest
 
 # fast build rule for target.
 fourhtest/fast:
-	$(MAKE) $(MAKESILENT) -f src/fourhtest/CMakeFiles/fourhtest.dir/build.make src/fourhtest/CMakeFiles/fourhtest.dir/build
+	cd C:/Users/clan0/nomaltest/build && $(MAKE) $(MAKESILENT) -f src/fourhtest/CMakeFiles/fourhtest.dir/build.make src/fourhtest/CMakeFiles/fourhtest.dir/build
 .PHONY : fourhtest/fast
+
+main.obj: main.cpp.obj
+
+.PHONY : main.obj
+
+# target to build an object file
+main.cpp.obj:
+	cd C:/Users/clan0/nomaltest/build && $(MAKE) $(MAKESILENT) -f src/fourhtest/CMakeFiles/fourhtest.dir/build.make src/fourhtest/CMakeFiles/fourhtest.dir/main.cpp.obj
+.PHONY : main.cpp.obj
+
+main.i: main.cpp.i
+
+.PHONY : main.i
+
+# target to preprocess a source file
+main.cpp.i:
+	cd C:/Users/clan0/nomaltest/build && $(MAKE) $(MAKESILENT) -f src/fourhtest/CMakeFiles/fourhtest.dir/build.make src/fourhtest/CMakeFiles/fourhtest.dir/main.cpp.i
+.PHONY : main.cpp.i
+
+main.s: main.cpp.s
+
+.PHONY : main.s
+
+# target to generate assembly for a file
+main.cpp.s:
+	cd C:/Users/clan0/nomaltest/build && $(MAKE) $(MAKESILENT) -f src/fourhtest/CMakeFiles/fourhtest.dir/build.make src/fourhtest/CMakeFiles/fourhtest.dir/main.cpp.s
+.PHONY : main.cpp.s
 
 # Help Target
 help:
@@ -189,10 +179,10 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... firstest"
 	@echo "... fourhtest"
-	@echo "... secondtest"
-	@echo "... thirdtest"
+	@echo "... main.obj"
+	@echo "... main.i"
+	@echo "... main.s"
 .PHONY : help
 
 
@@ -204,6 +194,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd C:/Users/clan0/nomaltest/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

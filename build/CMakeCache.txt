@@ -266,6 +266,12 @@ firstest_BINARY_DIR:STATIC=C:/Users/clan0/nomaltest/build/src/firstest
 firstest_SOURCE_DIR:STATIC=C:/Users/clan0/nomaltest/src/firstest
 
 //Value Computed by CMake
+fourhtest_BINARY_DIR:STATIC=C:/Users/clan0/nomaltest/build/src/fourhtest
+
+//Value Computed by CMake
+fourhtest_SOURCE_DIR:STATIC=C:/Users/clan0/nomaltest/src/fourhtest
+
+//Value Computed by CMake
 secondtest_BINARY_DIR:STATIC=C:/Users/clan0/nomaltest/build/src/secondtest
 
 //Value Computed by CMake
@@ -384,7 +390,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=4
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=5
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP
