@@ -28,5 +28,30 @@
   "directory": "C:/Users/clan0/nomaltest/build/final/2",
   "command": "C:/tools/msys64/mingw64/bin/g++.exe  @CMakeFiles/final2.dir/includes_CXX.rsp -g -std=gnu++11 -o CMakeFiles/final2.dir/final_02_k19074.cpp.obj -c C:/Users/clan0/nomaltest/final/2/final_02_k19074.cpp",
   "file": "C:/Users/clan0/nomaltest/final/2/final_02_k19074.cpp"
+},
+{
+  "directory": "C:/Users/clan0/nomaltest/build/final/3",
+  "command": "C:/tools/msys64/mingw64/bin/g++.exe  @CMakeFiles/final3.dir/includes_CXX.rsp -g -std=gnu++11 -o CMakeFiles/final3.dir/final_03_k19074.cpp.obj -c C:/Users/clan0/nomaltest/final/3/final_03_k19074.cpp",
+  "file": "C:/Users/clan0/nomaltest/final/3/final_03_k19074.cpp"
+},
+{
+  "directory": "C:/Users/clan0/nomaltest/build/final/4",
+  "command": "C:/tools/msys64/mingw64/bin/g++.exe  @CMakeFiles/final4.dir/includes_CXX.rsp -g -std=gnu++11 -o CMakeFiles/final4.dir/final_04_k19074.cpp.obj -c C:/Users/clan0/nomaltest/final/4/final_04_k19074.cpp",
+  "file": "C:/Users/clan0/nomaltest/final/4/final_04_k19074.cpp"
+},
+{
+  "directory": "C:/Users/clan0/nomaltest/build/final/5",
+  "command": "C:/tools/msys64/mingw64/bin/g++.exe  @CMakeFiles/final5.dir/includes_CXX.rsp -g -std=gnu++11 -o CMakeFiles/final5.dir/final_05_k19074.cpp.obj -c C:/Users/clan0/nomaltest/final/5/final_05_k19074.cpp",
+  "file": "C:/Users/clan0/nomaltest/final/5/final_05_k19074.cpp"
+},
+{
+  "directory": "C:/Users/clan0/nomaltest/build/final/6",
+  "command": "C:/tools/msys64/mingw64/bin/g++.exe  @CMakeFiles/final6.dir/includes_CXX.rsp -g -std=gnu++11 -o CMakeFiles/final6.dir/final_06_k19074.cpp.obj -c C:/Users/clan0/nomaltest/final/6/final_06_k19074.cpp",
+  "file": "C:/Users/clan0/nomaltest/final/6/final_06_k19074.cpp"
+},
+{
+  "directory": "C:/Users/clan0/nomaltest/build/final/7",
+  "command": "C:/tools/msys64/mingw64/bin/g++.exe  @CMakeFiles/final7.dir/includes_CXX.rsp -g -std=gnu++11 -o CMakeFiles/final7.dir/final_07_k19074.cpp.obj -c C:/Users/clan0/nomaltest/final/7/final_07_k19074.cpp",
+  "file": "C:/Users/clan0/nomaltest/final/7/final_07_k19074.cpp"
 }
 ]

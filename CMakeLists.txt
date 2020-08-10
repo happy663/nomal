@@ -33,9 +33,16 @@ add_subdirectory("src/firstest")
 add_subdirectory("src/secondtest")
 add_subdirectory("src/thirtdtest")
 add_subdirectory("src/fourhtest")
-
 add_subdirectory("final/1")
 add_subdirectory("final/2")
+add_subdirectory("final/3")
+add_subdirectory("final/4")
+add_subdirectory("final/5")
+add_subdirectory("final/6")
+add_subdirectory("final/7")
+
+
+
 
 
 

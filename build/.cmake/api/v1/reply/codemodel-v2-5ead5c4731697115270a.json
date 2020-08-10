@@ -13,7 +13,12 @@
 						3,
 						4,
 						5,
-						6
+						6,
+						7,
+						8,
+						9,
+						10,
+						11
 					],
 					"minimumCMakeVersion" : 
 					{
@@ -33,7 +38,7 @@
 					"source" : "src/firstest",
 					"targetIndexes" : 
 					[
-						2
+						7
 					]
 				},
 				{
@@ -47,7 +52,7 @@
 					"source" : "src/secondtest",
 					"targetIndexes" : 
 					[
-						4
+						9
 					]
 				},
 				{
@@ -61,7 +66,7 @@
 					"source" : "src/thirtdtest",
 					"targetIndexes" : 
 					[
-						5
+						10
 					]
 				},
 				{
@@ -75,7 +80,7 @@
 					"source" : "src/fourhtest",
 					"targetIndexes" : 
 					[
-						3
+						8
 					]
 				},
 				{
@@ -105,6 +110,76 @@
 					[
 						1
 					]
+				},
+				{
+					"build" : "final/3",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 7,
+					"source" : "final/3",
+					"targetIndexes" : 
+					[
+						2
+					]
+				},
+				{
+					"build" : "final/4",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 8,
+					"source" : "final/4",
+					"targetIndexes" : 
+					[
+						3
+					]
+				},
+				{
+					"build" : "final/5",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 9,
+					"source" : "final/5",
+					"targetIndexes" : 
+					[
+						4
+					]
+				},
+				{
+					"build" : "final/6",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 10,
+					"source" : "final/6",
+					"targetIndexes" : 
+					[
+						5
+					]
+				},
+				{
+					"build" : "final/7",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 11,
+					"source" : "final/7",
+					"targetIndexes" : 
+					[
+						6
+					]
 				}
 			],
 			"name" : "Debug",
@@ -118,7 +193,12 @@
 						3,
 						4,
 						5,
-						6
+						6,
+						7,
+						8,
+						9,
+						10,
+						11
 					],
 					"directoryIndexes" : 
 					[
@@ -135,7 +215,7 @@
 					"parentIndex" : 0,
 					"targetIndexes" : 
 					[
-						2
+						7
 					]
 				},
 				{
@@ -147,7 +227,7 @@
 					"parentIndex" : 0,
 					"targetIndexes" : 
 					[
-						4
+						9
 					]
 				},
 				{
@@ -159,7 +239,7 @@
 					"parentIndex" : 0,
 					"targetIndexes" : 
 					[
-						5
+						10
 					]
 				},
 				{
@@ -171,7 +251,7 @@
 					"parentIndex" : 0,
 					"targetIndexes" : 
 					[
-						3
+						8
 					]
 				},
 				{
@@ -196,6 +276,66 @@
 					"targetIndexes" : 
 					[
 						1
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						7
+					],
+					"name" : "final3",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						2
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						8
+					],
+					"name" : "final4",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						3
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						9
+					],
+					"name" : "final5",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						4
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						10
+					],
+					"name" : "final6",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						5
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						11
+					],
+					"name" : "final7",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						6
 					]
 				}
 			],
@@ -214,6 +354,41 @@
 					"jsonFile" : "target-final2-Debug-9e80e8e3cfe848713440.json",
 					"name" : "final2",
 					"projectIndex" : 6
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "final3::@5217cb1328c62845afb5",
+					"jsonFile" : "target-final3-Debug-2945b5a15bf6ab1b213e.json",
+					"name" : "final3",
+					"projectIndex" : 7
+				},
+				{
+					"directoryIndex" : 8,
+					"id" : "final4::@4a99179d7e1cda401f96",
+					"jsonFile" : "target-final4-Debug-8a36205648124ce5f864.json",
+					"name" : "final4",
+					"projectIndex" : 8
+				},
+				{
+					"directoryIndex" : 9,
+					"id" : "final5::@4fa8dff033df3bdf9333",
+					"jsonFile" : "target-final5-Debug-8d187a28f2aa280c3150.json",
+					"name" : "final5",
+					"projectIndex" : 9
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "final6::@a7baff88329dd5d2378f",
+					"jsonFile" : "target-final6-Debug-36cd470fa230361c2c69.json",
+					"name" : "final6",
+					"projectIndex" : 10
+				},
+				{
+					"directoryIndex" : 11,
+					"id" : "final7::@4871a79f8dfd87cda409",
+					"jsonFile" : "target-final7-Debug-b5c3ad35d3fa543484cc.json",
+					"name" : "final7",
+					"projectIndex" : 11
 				},
 				{
 					"directoryIndex" : 1,

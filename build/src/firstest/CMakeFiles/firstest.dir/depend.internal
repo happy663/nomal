@@ -104,3 +104,26 @@ src/firstest/CMakeFiles/firstest.dir/main.cpp.obj
  C:/tools/msys64/mingw64/include/opencv4/opencv2/video/background_segm.hpp
  C:/tools/msys64/mingw64/include/opencv4/opencv2/video/tracking.hpp
  C:/tools/msys64/mingw64/include/opencv4/opencv2/videoio.hpp
+ C:/tools/msys64/mingw64/include/opencv4/opencv2/ximgproc.hpp
+ C:/tools/msys64/mingw64/include/opencv4/opencv2/ximgproc/brightedges.hpp
+ C:/tools/msys64/mingw64/include/opencv4/opencv2/ximgproc/color_match.hpp
+ C:/tools/msys64/mingw64/include/opencv4/opencv2/ximgproc/deriche_filter.hpp
+ C:/tools/msys64/mingw64/include/opencv4/opencv2/ximgproc/disparity_filter.hpp
+ C:/tools/msys64/mingw64/include/opencv4/opencv2/ximgproc/edge_filter.hpp
+ C:/tools/msys64/mingw64/include/opencv4/opencv2/ximgproc/edgeboxes.hpp
+ C:/tools/msys64/mingw64/include/opencv4/opencv2/ximgproc/edgepreserving_filter.hpp
+ C:/tools/msys64/mingw64/include/opencv4/opencv2/ximgproc/estimated_covariance.hpp
+ C:/tools/msys64/mingw64/include/opencv4/opencv2/ximgproc/fast_hough_transform.hpp
+ C:/tools/msys64/mingw64/include/opencv4/opencv2/ximgproc/fast_line_detector.hpp
+ C:/tools/msys64/mingw64/include/opencv4/opencv2/ximgproc/fourier_descriptors.hpp
+ C:/tools/msys64/mingw64/include/opencv4/opencv2/ximgproc/lsc.hpp
+ C:/tools/msys64/mingw64/include/opencv4/opencv2/ximgproc/paillou_filter.hpp
+ C:/tools/msys64/mingw64/include/opencv4/opencv2/ximgproc/peilin.hpp
+ C:/tools/msys64/mingw64/include/opencv4/opencv2/ximgproc/ridgefilter.hpp
+ C:/tools/msys64/mingw64/include/opencv4/opencv2/ximgproc/run_length_morphology.hpp
+ C:/tools/msys64/mingw64/include/opencv4/opencv2/ximgproc/seeds.hpp
+ C:/tools/msys64/mingw64/include/opencv4/opencv2/ximgproc/segmentation.hpp
+ C:/tools/msys64/mingw64/include/opencv4/opencv2/ximgproc/slic.hpp
+ C:/tools/msys64/mingw64/include/opencv4/opencv2/ximgproc/sparse_match_interpolator.hpp
+ C:/tools/msys64/mingw64/include/opencv4/opencv2/ximgproc/structured_edge_detection.hpp
+ C:/tools/msys64/mingw64/include/opencv4/opencv2/ximgproc/weighted_median_filter.hpp

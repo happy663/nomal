@@ -799,7 +799,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "7"
+			"value" : "12"
 		},
 		{
 			"name" : "CMAKE_OBJCOPY",
@@ -1412,6 +1412,126 @@
 			],
 			"type" : "STATIC",
 			"value" : "C:/Users/clan0/nomaltest/final/2"
+		},
+		{
+			"name" : "final3_BINARY_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "C:/Users/clan0/nomaltest/build/final/3"
+		},
+		{
+			"name" : "final3_SOURCE_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "C:/Users/clan0/nomaltest/final/3"
+		},
+		{
+			"name" : "final4_BINARY_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "C:/Users/clan0/nomaltest/build/final/4"
+		},
+		{
+			"name" : "final4_SOURCE_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "C:/Users/clan0/nomaltest/final/4"
+		},
+		{
+			"name" : "final5_BINARY_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "C:/Users/clan0/nomaltest/build/final/5"
+		},
+		{
+			"name" : "final5_SOURCE_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "C:/Users/clan0/nomaltest/final/5"
+		},
+		{
+			"name" : "final6_BINARY_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "C:/Users/clan0/nomaltest/build/final/6"
+		},
+		{
+			"name" : "final6_SOURCE_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "C:/Users/clan0/nomaltest/final/6"
+		},
+		{
+			"name" : "final7_BINARY_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "C:/Users/clan0/nomaltest/build/final/7"
+		},
+		{
+			"name" : "final7_SOURCE_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "C:/Users/clan0/nomaltest/final/7"
 		},
 		{
 			"name" : "firstest_BINARY_DIR",

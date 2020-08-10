@@ -1,50 +1,64 @@
 //THRESH_FIX;
 #include <iostream>
 #include <opencv2/opencv.hpp>
-#define FILE_NAME "../Debug/a_img3.jpg"
-//#define FILE_NAME "a_img3.jpg"
 
+
+#define FILE_NAME "map.jpg"
 
 #define WINDOW_NAME_INPUT "input"
-#define WINDOW_NAME_TYUKAN "middle"
-#define WINDOW_NAME_TYUKAN2 "middle2"
+#define WINDOW_NAME_FILTER "filter"
 #define WINDOW_NAME_OUTPUT "output"
-#define TH (100)
 
-int main(int argc,const char*argv[]){
+int main(int argc, const char *argv[])
+{
+
+    cv::Mat src_img = cv::imread(FILE_NAME);
+    if (src_img.empty())
+    {        
+        fprintf(stderr, "File is no t opened.\n");        
+        return -1;
+    }
     
-    cv::Mat src_img=cv::imread(FILE_NAME,0);
-    if(src_img.empty()){
-        fprintf(stderr, "File is no t opened.\n");                        
-        return  -1;        
-    }                        
+
+    //中間画像の変数
+    cv::Mat filter_img = cv::Mat(src_img.size(), CV_8UC3);
     cv::Mat dst_img;
-    cv::Mat tmp_img;
-    cv::Mat bin_img;
-    cv::Mat out_img;
-    
-    //二値化
-    
-    cv::threshold(src_img, dst_img, TH, 255, cv::THRESH_BINARY);
-    
-    for (int i=0;i<8; i++) {
-        cv::dilate(dst_img, tmp_img, cv::Mat(),cv::Point(-1,-1),i);
-    }
-    
-    for (int i=0;i<26; i++) {
-        cv::erode(tmp_img, bin_img, cv::Mat(),cv::Point(-1,-1),i);
 
+    //画像の走査
+    for (int y = 0; y < src_img.rows; y++)
+    {
+        for (int x = 0; x < src_img.cols; x++)
+        {
+            //細線化処理            
+            cv::Vec3b s = src_img.at<cv::Vec3b>(y, x);
+
+            //赤色の道を検出
+            if (s[2] > 190 && s[2] < 210 && s[1] < 20 && s[0] < 60)
+            {
+                s[0] = 255;
+                s[1] = 255;
+                s[2] = 255;
+            }
+            else
+            {
+                s[0] = 0;
+                s[1] = 0;
+                s[2] = 0;
+            }
+
+            filter_img.at<cv::Vec3b>(y, x) = s;
+        }
     }
-    
-    for (int i=0; i<23 ; i++) {
-        cv::dilate(bin_img, out_img, cv::Mat(),cv::Point(-1,-1),i);
-    }
-    
-    cv::imshow(WINDOW_NAME_INPUT,src_img);
-    cv::imshow(WINDOW_NAME_OUTPUT, out_img);
-                
+
+    //膨張処理
+    cv::dilate(filter_img, dst_img, cv::Mat(), cv::Point(-1, -1), 2);
+
+
+    cv::imshow(WINDOW_NAME_INPUT, src_img);
+    cv::imshow(WINDOW_NAME_FILTER, filter_img);
+    cv::imshow(WINDOW_NAME_OUTPUT, dst_img);
+
     cv::waitKey();
-    
-    return  0;
-}
 
+    return 0;
+}

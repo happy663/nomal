@@ -12,5 +12,5 @@ file(GLOB SOURCES *.cpp)
 add_executable(final2 ${SOURCES})
 
 target_link_libraries(final2
-  PRIVATE ${OpenCV_LIBS}  
+  PRIVATE ${OpenCV_LIBS}      
 )

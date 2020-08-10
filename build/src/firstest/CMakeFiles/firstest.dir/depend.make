@@ -103,4 +103,27 @@ src/firstest/CMakeFiles/firstest.dir/main.cpp.obj: C:/tools/msys64/mingw64/inclu
 src/firstest/CMakeFiles/firstest.dir/main.cpp.obj: C:/tools/msys64/mingw64/include/opencv4/opencv2/video/background_segm.hpp
 src/firstest/CMakeFiles/firstest.dir/main.cpp.obj: C:/tools/msys64/mingw64/include/opencv4/opencv2/video/tracking.hpp
 src/firstest/CMakeFiles/firstest.dir/main.cpp.obj: C:/tools/msys64/mingw64/include/opencv4/opencv2/videoio.hpp
+src/firstest/CMakeFiles/firstest.dir/main.cpp.obj: C:/tools/msys64/mingw64/include/opencv4/opencv2/ximgproc.hpp
+src/firstest/CMakeFiles/firstest.dir/main.cpp.obj: C:/tools/msys64/mingw64/include/opencv4/opencv2/ximgproc/brightedges.hpp
+src/firstest/CMakeFiles/firstest.dir/main.cpp.obj: C:/tools/msys64/mingw64/include/opencv4/opencv2/ximgproc/color_match.hpp
+src/firstest/CMakeFiles/firstest.dir/main.cpp.obj: C:/tools/msys64/mingw64/include/opencv4/opencv2/ximgproc/deriche_filter.hpp
+src/firstest/CMakeFiles/firstest.dir/main.cpp.obj: C:/tools/msys64/mingw64/include/opencv4/opencv2/ximgproc/disparity_filter.hpp
+src/firstest/CMakeFiles/firstest.dir/main.cpp.obj: C:/tools/msys64/mingw64/include/opencv4/opencv2/ximgproc/edge_filter.hpp
+src/firstest/CMakeFiles/firstest.dir/main.cpp.obj: C:/tools/msys64/mingw64/include/opencv4/opencv2/ximgproc/edgeboxes.hpp
+src/firstest/CMakeFiles/firstest.dir/main.cpp.obj: C:/tools/msys64/mingw64/include/opencv4/opencv2/ximgproc/edgepreserving_filter.hpp
+src/firstest/CMakeFiles/firstest.dir/main.cpp.obj: C:/tools/msys64/mingw64/include/opencv4/opencv2/ximgproc/estimated_covariance.hpp
+src/firstest/CMakeFiles/firstest.dir/main.cpp.obj: C:/tools/msys64/mingw64/include/opencv4/opencv2/ximgproc/fast_hough_transform.hpp
+src/firstest/CMakeFiles/firstest.dir/main.cpp.obj: C:/tools/msys64/mingw64/include/opencv4/opencv2/ximgproc/fast_line_detector.hpp
+src/firstest/CMakeFiles/firstest.dir/main.cpp.obj: C:/tools/msys64/mingw64/include/opencv4/opencv2/ximgproc/fourier_descriptors.hpp
+src/firstest/CMakeFiles/firstest.dir/main.cpp.obj: C:/tools/msys64/mingw64/include/opencv4/opencv2/ximgproc/lsc.hpp
+src/firstest/CMakeFiles/firstest.dir/main.cpp.obj: C:/tools/msys64/mingw64/include/opencv4/opencv2/ximgproc/paillou_filter.hpp
+src/firstest/CMakeFiles/firstest.dir/main.cpp.obj: C:/tools/msys64/mingw64/include/opencv4/opencv2/ximgproc/peilin.hpp
+src/firstest/CMakeFiles/firstest.dir/main.cpp.obj: C:/tools/msys64/mingw64/include/opencv4/opencv2/ximgproc/ridgefilter.hpp
+src/firstest/CMakeFiles/firstest.dir/main.cpp.obj: C:/tools/msys64/mingw64/include/opencv4/opencv2/ximgproc/run_length_morphology.hpp
+src/firstest/CMakeFiles/firstest.dir/main.cpp.obj: C:/tools/msys64/mingw64/include/opencv4/opencv2/ximgproc/seeds.hpp
+src/firstest/CMakeFiles/firstest.dir/main.cpp.obj: C:/tools/msys64/mingw64/include/opencv4/opencv2/ximgproc/segmentation.hpp
+src/firstest/CMakeFiles/firstest.dir/main.cpp.obj: C:/tools/msys64/mingw64/include/opencv4/opencv2/ximgproc/slic.hpp
+src/firstest/CMakeFiles/firstest.dir/main.cpp.obj: C:/tools/msys64/mingw64/include/opencv4/opencv2/ximgproc/sparse_match_interpolator.hpp
+src/firstest/CMakeFiles/firstest.dir/main.cpp.obj: C:/tools/msys64/mingw64/include/opencv4/opencv2/ximgproc/structured_edge_detection.hpp
+src/firstest/CMakeFiles/firstest.dir/main.cpp.obj: C:/tools/msys64/mingw64/include/opencv4/opencv2/ximgproc/weighted_median_filter.hpp
 
